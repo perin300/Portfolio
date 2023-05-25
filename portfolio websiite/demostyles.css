@@ -1,0 +1,226 @@
+html,
+body,
+p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 36px;
+  color: #fff;
+  background: none;
+  border: none;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(to right, rgba(245, 245, 245, .8), rgba(245, 245, 245, .8)), url(common-bg.svg);
+  background-position: center;
+  height: 100vh;
+  max-height: 140rem;
+  position: relative;
+}
+
+.contain-area {
+  height: fit-content;
+  font-size: 25px;
+}
+
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.hello {
+  font-size: 45px;
+}
+
+.name {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.about {
+  font-size: 20px;
+  font-family: 'Fira Sans', sans-serif;
+
+}
+
+.aboutinfo {
+  margin-top: 20px;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.buttons button {
+  padding: 9px 14px;
+  border-radius: 18px;
+  color: #fff;
+  background-color: #1e90ff;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0px 3px;
+  border: 1px solid #fff;
+}
+
+.buttons button:hover {
+  background-color: #fff;
+  color: #1e90ff;
+  border: 1px solid #1e90ff;
+}
+
+.aboutmeimg {
+  height: 78vh;
+}
+
+.openbtn {
+  z-index: 1;
+  background: none;
+  border: none;
+  font-size: 20px;
+  position: fixed;
+  display: flex;
+  margin: 10px 0px 0px 5px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.discription {
+  font-size: 20px;
+  font-family: 'Fira Sans', sans-serif;
+  padding: 0px 60px;
+  width: 60%;
+}
+
+.discription p {
+  margin-top: 20px;
+}
+
+.aboutmeimg {
+  padding: 0px 60px;
+}
+
+.aboutmeimg img {
+  height: 220px;
+}
+
+.aboutme-container {
+  display: flex;
+  text-align: justify;
+  margin: 0px 60px;
+
+}
+
+.skill-container {
+  margin: 0px 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.skill-container ul {}
+
+.skill-container li {
+  display: inline-flex;
+  background: #ccc;
+  width: 130px;
+  height: 130px;
+  justify-content: center;
+  margin: 30px 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  align-items: center;
+  box-shadow: 1px 4px 5px #767373;
+  font-size: 20px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.project-container {
+  display: flex;
+  height: 56vh;
+  align-items: center;
+  margin: 10px 60px;
+}
+
+.contact-container {
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 30px;
+  height: fit-content;
+  width: 500px;
+}
+
+.contact-container label {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-container input {
+  width: 100%;
+  border: #ccc;
+  background: #f2f2f2;
+  border-radius: 3px;
+  height: 40px;
+  margin: 10px 0px;
+}
+
+.btn-submit {
+  float: right;
+  background: #1e90ff;
+  color: #fff;
+  border: 1px solid #1e90ff;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
